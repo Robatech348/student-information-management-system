@@ -1,0 +1,14 @@
+# Local configuration overrides (may contain real database passwords)
+config/config.local.php
+
+# Runtime data created on each installation
+storage/*
+!storage/.htaccess
+
+# Logs, OS and editor files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
